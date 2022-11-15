@@ -45,14 +45,14 @@ print(colorize.colorize("Hello World", foreground="blue"))
 ![result](https://media.discordapp.net/attachments/887158781832749086/1041832028854820974/image.png)
 
 ```python
-from colorize import colorize_style
+from colorize import colorize
 
 print(colorize.colorize_style("Hello World", "bold"))
 ```
 ![result](https://media.discordapp.net/attachments/887158781832749086/1041832167161991199/image.png)
 
 ```python
-from colorize import colorize_rainbow
+from colorize import colorize
 
 print(colorize.colorize_rainbow("Hello World", "foreground"))
 ```
